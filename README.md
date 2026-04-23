@@ -50,14 +50,9 @@ As avaliações dos produtos possuem a seguinte estrutura:
 
 ### produtos
 
-- **id:**
-- **date_created:**
-- **catalog_product_id:**
-- **domain_id:**
-- **name:**
-- **main_features:**
-- **quality_type:**
-- **priority:**
-- **type:**
-- **keywords:**
-- **description:**
+- **id:** dado do tipo string que contém o id do produto usado na plataforma do Mercado Livre
+- **date_created:** dado do tipo string que contém a data de criação do produto
+- **catalog_product_id:** dado do tipo string que contém o id do produto no catálogo usado na plataforma do Mercado Livre
+- **domain_id:** dado do tipo string que contem o id de domínio do produto.
+- **name:** dado do tipo string que contém o nome do produto
+- **keywords:** dado do tipo string que contém as palavras chaves do produto.
