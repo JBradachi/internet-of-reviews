@@ -1,0 +1,9 @@
+requests
+ipykernel
+pandas
+lxml
+html5lib
+beautifulsoup4
+nltk
+wordcloud
+matplotlib
