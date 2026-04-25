@@ -1,4 +1,4 @@
-texto,nota,id,data,sentimento,tiposentimento,domain_id
+review_text,rating,id,review_date,sentiment_compound_review,sentiment_review,domain_id
 E muito prático. Gostei.,5,MLB36333923,2024-12-13T00:00:00,0.4215,Positivo,MLB-REFRIGERATORS
 Ajuda muito em viagens.,5,MLB36333923,2025-01-16T00:00:00,0.3818,Positivo,MLB-REFRIGERATORS
 Muito top.,5,MLB36333923,2025-03-29T00:00:00,0.0,Neutro,MLB-REFRIGERATORS

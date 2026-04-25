@@ -1,4 +1,4 @@
-pergunta,resposta,id,data,sentimento_pergunta,tiposentimento_pergunta,domain_id_x,sentimento_resposta,tiposentimento_resposta,domain_id_y
+question,answer,id,question_date,sentiment_compound_question,sentiment_question,domain_id_x,sentiment_compound_answer,sentiment_answer,domain_id_y
 Qual tamanho do cabo 12V,"Olá, boa tarde! Cerca de 2M!",MLB36333923,2025-08-28T00:00:00,0.0,Neutro,MLB-REFRIGERATORS,0.5399,Positivo,MLB-REFRIGERATORS
 Ela não congela só esfria,"Olá, boa tarde! Isso, ela é uma geladeira, diferente de um freezer!",MLB36333923,2025-07-15T00:00:00,-0.3182,Negativo,MLB-REFRIGERATORS,0.5399,Positivo,MLB-REFRIGERATORS
 "Boa tarde Estou precisando de duas placas , pra poder bor na minha geladeira TOMATE ! O mesmo não está gelando direito. Consegue fornecer elas ? Qual valor seria ??","Olá, bom dia! Infelizmente não temos peças de reposição, somente o fabricante poderia te fornecer ou realizar a garantia de seu produto!",MLB36333923,2025-07-14T00:00:00,0.6036,Positivo,MLB-REFRIGERATORS,0.4738,Positivo,MLB-REFRIGERATORS
