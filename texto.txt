@@ -1,0 +1,51 @@
+This dataset in Portuguese contains information from 5.094 distinct smart objects collected in a Latin American market. The information includes reviews, product data on the platform, technical features (called contexts), questions, and answers, along with sentiment analysis in reviews, questions and answers.
+
+In total instances of, 3.093 reviews, 108.640 technical features, and 8.877 questions with their respective answers were collected.
+
+Sentiment Analysis 🙂: The sentiment analysis was performed using LeIA (Lexicon for Adapted Inference), a fork of the VADER (Valence Aware Dictionary and sEntiment Reasoner) lexicon and sentiment analysis tool adapted for Portuguese texts, which categorizes sentiments as Negative, Neutral, or Positive. More information can be found here: LeIA
+
+Data Structure
+
+The data was structured by separating it by data type collected as follows:
+
+smart_objects_reviews.csv
+
+Product reviews have the following structure:
+
+review_text: string data containing the review text.
+rating: integer data containing the review rating.
+id: String data containing the product ID used on the Mercado Livre platform.
+review_date: String data containing the date the review was posted.
+sentiment_compound_review: a numerical value from 0 to 1 composed of the probability of the sentiment being positive, negative, or neutral.
+sentiment_review: a string value that identifies whether the sentiment is positive, negative, or neutral.
+smart_objects_contexts.csv
+
+Product contexts (technical features) have the following structure:
+
+context_id: String data containing the description ID used on the Mercado Livre platform
+context_name: String data containing the description name
+value_id: Integer data containing the value ID used on the Mercado Livre platform
+value_name: String data containing the value
+id: String data containing the product ID used on the Mercado Livre platform
+smart_objects_questions.csv
+
+Product questions have the following structure:
+
+question: String data containing the customer's question
+answer: String data containing the seller's answer
+id: String data containing the product ID used on the Mercado Livre platform
+question_date: String data containing the date the question was posted 
+sentiment_compound_question: a numerical value from 0 to 1 composed of the probability of the sentiment being positive, negative, or neutral.
+sentiment_compound_answer: a numerical value from 0 to 1 composed of the probability of the sentiment being positive, negative, or neutral.
+sentiment_question: a string value that identifies whether the sentiment is positive, negative, or neutral.
+sentiment_answer: a string value that identifies whether the sentiment is positive, negative, or neutral.
+smart_objects_products.csv
+
+Product have the following structure:
+
+id: String data containing the product ID used on the Mercado Livre platform
+date_created: Data string containing the product creation date
+catalog_product_id: string containing the product ID in the catalog used on the Mercado Libre platform
+domain_id: string containing the product's domain ID.
+name: string containing the product name
+keywords: string containing the product's keywords.
